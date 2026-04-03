@@ -1,0 +1,150 @@
+{
+  "info": {
+    "_postman_id": "7d920cda-bae4-4080-b72c-8e87d463ee76",
+    "name": "Proyecto UT04 - FTP y Mail",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52304468",
+    "_collection_link": "https://go.postman.co/collection/52304468-7d920cda-bae4-4080-b72c-8e87d463ee76?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Subir Archivo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "f497d94c-450d-43a2-a3e7-4b6c3dbeea0d",
+              "src": "/C:/Users/NACHO/Desktop/Prueba1.txt"
+            },
+            {
+              "key": "uploadPath",
+              "value": "/uploads/archivo.txt",
+              "type": "text",
+              "uuid": "7116d0b9-ddbc-45d9-af63-6e537fbfa569"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/upload-file",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "upload-file"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Descargar Archivo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "remoteFilePath",
+              "value": "/uploads/archivo.txt",
+              "type": "text",
+              "uuid": "3f9ea5e5-89c6-4baf-8136-71d7c5a10a0a"
+            },
+            {
+              "key": "localPath",
+              "value": "C:\\Users\\Public\\prueba_bajada.txt",
+              "type": "text",
+              "uuid": "fa3b2db1-6562-4062-9380-991b313f276b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/download-file",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "download-file"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Eliminar Archivo",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/delete-file?remoteFilePath=/uploads/archivo.txt",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "delete-file"
+          ],
+          "query": [
+            {
+              "key": "remoteFilePath",
+              "value": "/uploads/archivo.txt"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Enviar Correo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "to",
+              "value": "nachovillacis9@gmail.com",
+              "type": "text",
+              "uuid": "ba886c44-ad5e-49ea-bf3b-c080f45eee69"
+            },
+            {
+              "key": "subject",
+              "value": "Prueba Proyecto UT04",
+              "type": "text",
+              "uuid": "8f3ca8a7-2df6-40d5-abe8-d6581e01362c"
+            },
+            {
+              "key": "body",
+              "value": "Soy el mejor",
+              "type": "text",
+              "uuid": "0d7a1c8a-2ccc-4b86-9c0a-65c94234fde1"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/send-email",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "send-email"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
