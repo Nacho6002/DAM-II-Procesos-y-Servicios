@@ -1,37 +1,65 @@
-# Programación de Servicios y Procesos - Proyectos DAM
-> Proyectos backend y de comunicación entre servicios desarrollados durante DAM
+<h1 align="center">⚙️ Programación de Servicios y Procesos - Proyectos DAM</h1>
 
-Repositorio con una selección de mis proyectos más representativos del módulo de **Programación de Servicios y Procesos** del ciclo formativo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+<p align="center">
+  Selección de proyectos del módulo de <strong>Programación de Servicios y Procesos</strong><br>
+  del ciclo formativo de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>.
+</p>
 
-## Sobre este repositorio
-Aquí recopilo proyectos académicos orientados al desarrollo de servicios, comunicación entre aplicaciones y uso de tecnologías backend.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/REST_API-0f172a?style=for-the-badge" alt="REST API" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Estado-Organizado-success?style=for-the-badge" alt="Estado" />
+</p>
 
-He seleccionado los trabajos que mejor representan mi aprendizaje en el módulo, priorizando estructura, funcionalidad y documentación.
+---
 
-## Proyecto incluido
+## 📖 Sobre este repositorio
 
-### Servicio REST con FTP y Email
-Aplicación backend desarrollada con **Spring Boot** que integra:
+Aquí recopilo una selección de mis proyectos más representativos del módulo de **Programación de Servicios y Procesos**, centrados en:
+
+- desarrollo backend
+- comunicación entre aplicaciones
+- servicios REST
+- integración con servicios externos
+- pruebas funcionales y documentación técnica
+
+He seleccionado los trabajos que mejor representan mi aprendizaje en el módulo, priorizando estructura, funcionalidad y presentación del proyecto.
+
+---
+
+## 🚀 Proyecto incluido
+
+### 📡 Servicio REST con FTP y Email
+Aplicación backend desarrollada con **Spring Boot** que integra distintas operaciones sobre un servidor FTP y un servicio de envío de correo electrónico.
+
+**Incluye:**
 - gestión de archivos en servidor FTP
 - subida, descarga y eliminación de archivos
 - envío de correos electrónicos
 - pruebas de endpoints con Postman
 - despliegue de servicios auxiliares con Docker
 
-## Tecnologías trabajadas
-- Java
-- Spring Boot
-- Docker
-- FTP
-- APIs REST
-- Postman
-- Email / SMTP
+📂 Carpeta del proyecto: `servicio-rest-ftp-mail/`
 
-## Estructura del repositorio
-- `servicio-rest-ftp-mail/`
+---
 
-## Objetivo
-Mostrar de forma clara y ordenada uno de mis proyectos más completos del módulo de Programación de Servicios y Procesos, combinando desarrollo backend, integración de servicios y pruebas funcionales.
+## 🛠️ Tecnologías trabajadas
 
-## Autor
-Ignacio Daniel Villacis Quishpe
+- ☕ Java
+- 🌱 Spring Boot
+- 🐳 Docker
+- 📂 FTP
+- 🔌 APIs REST
+- 🧪 Postman
+- ✉️ Email / SMTP
+
+---
+
+## 📂 Estructura del repositorio
+
+```text
+Programacion-de-Servicios-y-Procesos/
+└── servicio-rest-ftp-mail/
