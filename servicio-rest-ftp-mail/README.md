@@ -1,4 +1,5 @@
 # Servicio REST con FTP y Email
+> Spring Boot · FTP · Docker · Email · Postman
 
 Proyecto académico del módulo de **Programación de Servicios y Procesos** desarrollado con **Spring Boot**, integrando un servidor **FTP en Docker** y un servicio de **envío de correo electrónico**.
 
