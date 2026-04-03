@@ -59,7 +59,7 @@
             },
             {
               "key": "localPath",
-              "value": "C:\\Users\\Public\\prueba_bajada.txt",
+              "value": "C:\ruta\archivo_descargado.txt",
               "type": "text",
               "uuid": "fa3b2db1-6562-4062-9380-991b313f276b"
             }
@@ -114,7 +114,7 @@
           "formdata": [
             {
               "key": "to",
-              "value": "nachovillacis9@gmail.com",
+              "value": "usuario@ejemplo.com",
               "type": "text",
               "uuid": "ba886c44-ad5e-49ea-bf3b-c080f45eee69"
             },
