@@ -1,4 +1,5 @@
 # Programación de Servicios y Procesos - Proyectos DAM
+> Proyectos backend y de comunicación entre servicios desarrollados durante DAM
 
 Repositorio con una selección de mis proyectos más representativos del módulo de **Programación de Servicios y Procesos** del ciclo formativo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
 
